@@ -1,0 +1,7 @@
+experiment,modell,daten,train_n,mae_test,rmse_test,mape_test,zeit_s
+Ridge_D1_single,Ridge,D1_single,490642,16.86,22.09,32.3,1.1
+Ridge_D2_multi4,Ridge,D2_multi4,1541274,15.71,25.05,29.6,3.4
+Ridge_D3_mittel6,Ridge,D3_mittel6,4393827,19.98,33.64,33.5,9.7
+Ridge_D4_gross10,Ridge,D4_gross10,9881090,18.99,31.98,33.0,21.3
+Ridge_D5_fremd,Ridge,D5_fremd,3903184,19.98,34.78,33.8,8.3
+Ridge_D6_coord,Ridge,D6_coord,9881090,18.3,31.8,31.0,21.7

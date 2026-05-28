@@ -1,0 +1,7 @@
+skript,laufzeit_s
+00_prepare_data,568.9
+01_train_xgboost,135.8
+04_train_ridge,65.5
+03_train_mlp_v2,2775.8
+02_train_random_forest,8762.7
+05_evaluate_all,660.5

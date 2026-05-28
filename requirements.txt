@@ -1,0 +1,27 @@
+# Python 3.10+  —  getestet mit den unten gepinnten Versionen (Windows + CUDA)
+# Installation:  pip install -r requirements.txt
+# (PyTorch mit GPU separat installieren, siehe Hinweis unten)
+
+# --- Datenverarbeitung ---
+pandas==3.0.2
+numpy==2.4.4
+
+# --- Klassische ML-Modelle (Ridge, Random Forest) + Modell-Persistenz ---
+scikit-learn==1.8.0
+joblib==1.5.3
+
+# --- Gradient Boosting (GPU-faehig) ---
+xgboost==3.2.0
+
+# --- Visualisierung ---
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# --- Notebooks (skripte/notebooks/) ---
+jupyter==1.1.1
+
+# --- Deep Learning (MLPv2) ---
+# Hier ohne CUDA-Suffix gepinnt; "pip install -r" zieht den Standard-Build (ggf. CPU).
+# Fuer GPU-Training den passenden CUDA-Build vom PyTorch-Index installieren, z.B.:
+#   pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cu124
+torch==2.6.0

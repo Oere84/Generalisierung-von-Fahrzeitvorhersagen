@@ -1,0 +1,7 @@
+experiment,modell,daten,train_n,mae_val,mae_test,rmse_test,mape_test,params,zeit_s
+MLPv2_D1_single,MLPv2,D1_single,490642,11.56,11.88,16.97,27.9,16911,47.6
+MLPv2_D2_multi4,MLPv2,D2_multi4,1541274,6.73,7.01,11.39,11.7,23528,133.1
+MLPv2_D3_mittel6,MLPv2,D3_mittel6,4393827,8.08,8.52,18.62,12.5,36522,193.3
+MLPv2_D4_gross10,MLPv2,D4_gross10,9881090,8.8,8.16,19.28,11.8,61360,958.8
+MLPv2_D5_fremd,MLPv2,D5_fremd,3903184,7.88,8.32,18.96,11.7,33907,520.1
+MLPv2_D6_coord,MLPv2,D6_coord,9881090,13.54,12.3,24.64,18.2,13505,916.7

@@ -1,0 +1,7 @@
+experiment,modell,daten,train_n,mae_val,mae_test,rmse_test,mape_test,best_iter,zeit_s
+XGB_D1_single,XGBoost,D1_single,490642,6.24,6.4,10.08,10.8,228,2.9
+XGB_D2_multi4,XGBoost,D2_multi4,1541274,6.28,6.65,10.85,10.9,414,7.5
+XGB_D3_mittel6,XGBoost,D3_mittel6,4393827,7.55,7.99,17.25,11.7,499,19.3
+XGB_D4_gross10,XGBoost,D4_gross10,9881090,8.61,8.84,21.66,12.8,491,40.7
+XGB_D5_fremd,XGBoost,D5_fremd,3903184,7.59,8.3,19.27,11.7,499,18.8
+XGB_D6_coord,XGBoost,D6_coord,9881090,8.04,7.72,16.98,11.5,496,43.7
